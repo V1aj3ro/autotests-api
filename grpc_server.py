@@ -1,5 +1,7 @@
-import grpc
 from concurrent import futures
+
+import grpc
+
 import user_service_pb2
 import user_service_pb2_grpc
 
