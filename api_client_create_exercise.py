@@ -1,4 +1,5 @@
 from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
+from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
 from clients.files.files_client import get_files_client, CreateFileRequestDict
 from clients.private_http_builder import AuthenticationUserDict
 from clients.users.public_users_client import get_public_users_client, CreateUserRequestDict
@@ -23,6 +24,7 @@ authentication_user = AuthenticationUserDict(
 
 files_client = get_files_client(authentication_user)
 courses_client = get_courses_client(authentication_user)
+exercises_client = get_exercises_client(authentication_user)
 
 create_file_request = CreateFileRequestDict(
     filename="image.png",
@@ -44,3 +46,15 @@ create_course_request = CreateCourseRequestDict(
 )
 create_course_response = courses_client.create_course(create_course_request)
 print("Create course data:", create_course_response)
+
+create_exercises_request = CreateExerciseRequestDict(
+    title="Pydantic",
+    courseId=create_course_response['course']["id"],
+    maxScore=5,
+    minScore=1,
+    orderIndex=0,
+    description="Python API course Pydantic",
+    estimatedTime="2 days"
+)
+create_exercise_response = exercises_client.create_exercise(create_exercises_request)
+print("Create exercise data:", create_exercise_response)
