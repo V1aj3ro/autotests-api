@@ -67,7 +67,7 @@ def assert_create_course_response(
 
     :param request: Исходный запрос на создание курса.
     :param response: Ответ API с данными курса.
-        :raises AssertionError: Если хотя бы одно поле не совпадает.
+    :raises AssertionError: Если хотя бы одно поле не совпадает.
         """
     assert_equal(response.course.title, request.title, "title")
     assert_equal(response.course.max_score, request.max_score, "max_score")
