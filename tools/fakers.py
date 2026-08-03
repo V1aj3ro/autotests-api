@@ -113,4 +113,4 @@ class Fake:
         return self.integer(1, 30)
 
 
-fake = Fake(faker=Faker())
+fake = Fake(faker=Faker()) 
