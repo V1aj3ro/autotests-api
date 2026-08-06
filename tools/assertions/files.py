@@ -1,13 +1,13 @@
-from http import HTTPStatus
+import allure
 
 from clients.errors_schema import ValidationErrorResponseSchema, ValidationErrorSchema, InternalErrorResponseSchema
-from clients.files.files_client import FilesClient
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema, GetFileResponseSchema, \
     FileSchema
 from tools.assertions.base import assert_equal
 from tools.assertions.errors import assert_validation_error_response, assert_internal_error_response
 
 
+@allure.step("Check create file response")
 def assert_create_file_response(request: CreateFileRequestSchema, response: CreateFileResponseSchema):
     """
     Проверяет, что ответ на создание файла соответствует запросу.
@@ -23,6 +23,7 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
     assert_equal(response.file.directory, request.directory, "Directory")
 
 
+@allure.step("Check file response")
 def assert_file(actual: FileSchema, expected: FileSchema):
     """
     Проверяет, что фактические данные файла соответствуют ожидаемым.
@@ -36,11 +37,12 @@ def assert_file(actual: FileSchema, expected: FileSchema):
     assert_equal(actual.filename, expected.filename, "filename")
     assert_equal(actual.directory, expected.directory, "Directory")
 
+
+@allure.step("Check get file response")
 def assert_get_file_response(
         get_file_response: GetFileResponseSchema,
         create_file_response: CreateFileResponseSchema
 ):
-
     """
     Проверяет, что ответ на получение файла соответствует ответу на его создание.
 
@@ -51,6 +53,7 @@ def assert_get_file_response(
     assert_file(get_file_response.file, create_file_response.file)
 
 
+@allure.step("Check create file with empty filename response")
 def assert_create_file_with_empty_filename_response(actual: ValidationErrorResponseSchema):
     """
     Проверяет, что ответ на создание файла с пустым именем файла соответствует ожидаемой валидационной ошибке.
@@ -61,10 +64,10 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     expected = ValidationErrorResponseSchema(
         detail=[
             ValidationErrorSchema(
-                type = "string_too_short",
-                input= "",
-                context= {"min_length": 1},
-                message= "String should have at least 1 character",
+                type="string_too_short",
+                input="",
+                context={"min_length": 1},
+                message="String should have at least 1 character",
                 location=["body", "filename"],
             )
         ]
@@ -72,6 +75,7 @@ def assert_create_file_with_empty_filename_response(actual: ValidationErrorRespo
     assert_validation_error_response(actual, expected)
 
 
+@allure.step("Check create file with empty directory response")
 def assert_create_file_with_empty_directory_response(actual: ValidationErrorResponseSchema):
     """
     Проверяет, что ответ на создание файла с пустым значением директории соответствует ожидаемой валидационной ошибке.
@@ -92,6 +96,8 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     )
     assert_validation_error_response(actual, expected)
 
+
+@allure.step("Check file not found response")
 def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     """
     Функция для проверки ошибки, если файл не найден на сервере.
@@ -102,6 +108,8 @@ def assert_file_not_found_response(actual: InternalErrorResponseSchema):
     expected = InternalErrorResponseSchema(details="File not found")
     assert_internal_error_response(actual, expected)
 
+
+@allure.step("Check get file with incorrect file id response")
 def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema):
     """
     Функция для проверки ошибки, если file_id некорректный.
@@ -111,15 +119,15 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
     expected = ValidationErrorResponseSchema(
         detail=[
             ValidationErrorSchema(
-                type = "uuid_parsing",
-                location = [
+                type="uuid_parsing",
+                location=[
                     "path",
                     "file_id"
                 ],
                 message="Input should be a valid UUID, invalid character: "
                         "expected an optional prefix of `urn:uuid:` "
                         "followed by [0-9a-fA-F-], found `i` at 1",
-                input = "incorrect-file-id",
+                input="incorrect-file-id",
                 context={
                     "error": "invalid character: expected an optional prefix of `urn:uuid:` "
                              "followed by [0-9a-fA-F-], found `i` at 1"
