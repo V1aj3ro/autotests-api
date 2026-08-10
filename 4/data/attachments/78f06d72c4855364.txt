@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjUxOjQ0LjYwNzcwNiIsInVzZXJfaWQiOiI1MjM3NzJjNy0xOTJiLTQ0NTktOGUxNi1mYzFiZTY4NWYxYzEifQ.ggP9xgbJnqffpTWLQ3nWSgAWbXKy9H2aH-7Lw-NQ5QI'\
+ -H 'content-length: 396'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Clear security common say represent term.","maxScore":92,"minScore":6,"description":"Team skin miss environment relationship budget.\nListen ground out prepare trial spend thing.\nAround window sense major later impact. Machine for owner nothing.","estimatedTime":"4 weeks","previewFileId":"b0c15c39-e5b9-4f44-9ec2-22d8c52c4f47","createdByUserId":"523772c7-192b-4459-8e16-fc1be685f1c1"}'

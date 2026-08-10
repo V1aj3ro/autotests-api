@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjUxOjQ1Ljc3MTk5NCIsInVzZXJfaWQiOiJkYTI3ODJhMi05ZWZkLTQ5MzItYmY4Mi0wMTM5Y2U4ZmY3MTQifQ.BIzNMFPXAn0q0JfDYqWdGPp-jwhICIaG7ID2V53038Y'\
+ -H 'content-length: 358'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Major eight play.","courseId":"405ab8d7-2623-4659-a94c-d6878b41860a","maxScore":85,"minScore":2,"orderIndex":16,"description":"Pattern media social sea wrong such can. Level allow strong left blue. Traditional recognize identify.\nSoon national major kitchen reality consumer trade. Attention business require he wonder.","estimatedTime":"8 weeks"}'

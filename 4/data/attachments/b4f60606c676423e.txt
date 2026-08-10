@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjUxOjQ0LjAzMDcyNyIsInVzZXJfaWQiOiI0YTU0MzZiZS03ZDIwLTQwOTEtOWE3MS0yZDA2MTY5YzBiYmMifQ.wZ5rKG9gCOMLwmCaTdzEOYkp03YQvQuA--NBVdCd2zs'\
+ -H 'content-length: 419'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Deep soldier war approach hold everybody.","maxScore":99,"minScore":3,"description":"Other should board test response artist. Leg eat seven would fine society right.\nSociety surface language daughter. Result develop free. Enough fall born either project benefit stand.","estimatedTime":"7 weeks","previewFileId":"bc363db2-64d4-4494-a406-911c5787d888","createdByUserId":"4a5436be-7d20-4091-9a71-2d06169c0bbc"}'

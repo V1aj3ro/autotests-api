@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjUxOjQ1LjE5MTE1OCIsInVzZXJfaWQiOiI5NGQ1MTU1Mi0yMDMyLTQxZWMtYTg4OC1iNzM1ZjA0MzdkY2UifQ.snd-lhmwzz0w-3nx3-gXGHdnK8ibvo1O5D996omd9gU'\
+ -H 'content-length: 355'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Add clear during follow simple stuff.","maxScore":84,"minScore":22,"description":"Anyone clear college company everyone energy. Better me everything cultural difficult animal start rest.\nExpert take line.","estimatedTime":"9 weeks","previewFileId":"42ea8741-223d-478e-8740-4d4d38a8384c","createdByUserId":"94d51552-2032-41ec-a888-b735f0437dce"}'

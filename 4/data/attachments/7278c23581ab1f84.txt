@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/7ce7924e-a369-4bbc-a8d5-bb67a1bcf02e'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjUxOjQyLjU2NjIzMyIsInVzZXJfaWQiOiJiNGQwNDRmYy0wY2FmLTQzMDEtYmUzOC1hMjAzMDlhMWVmNDAifQ.ObYYTpiDFTRfRUmXVgDgpfKOX8Ckmw-NVHJG4yTLhDA'\
+ -H 'content-length: 306'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wife action parent sea final.","maxScore":62,"minScore":4,"description":"But Democrat major leader. Mention parent though truth water. East power thousand magazine place wrong.\nTax approach manager prove total get. Across recent direction away report enjoy agreement.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjUxOjQ3LjAwMDE2OCIsInVzZXJfaWQiOiJhMWQ2ZTQyNy02NDFiLTQ2NTMtYjYwYy1jZTM0YWY3MjVjY2MifQ.9qpRUcDcpUD0An4BvEGaOAYvBo6iVhTxczHs-rDh2ss'\
+ -H 'content-length: 430'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Thousand continue avoid well figure war relationship.","maxScore":93,"minScore":13,"description":"Structure face few girl born paper. Produce consider attorney daughter major accept each.\nStudy single west loss none media one. Evidence support ready letter nor any forget notice.","estimatedTime":"3 weeks","previewFileId":"d1ed8d6d-c29e-452e-987d-57e75ead2f5e","createdByUserId":"a1d6e427-641b-4653-b60c-ce34af725ccc"}'

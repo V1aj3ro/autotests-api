@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjUxOjQzLjQ1MDg4MiIsInVzZXJfaWQiOiJiMTEwNjBiNi0xYmY3LTQ2NTQtYTQ2Zi0yZWQyMjYyMzkxNGEifQ.wxpAkdh-oYiDErdG54l0b6RFqvu2AtOdy0Rl5XNyBoo'\
+ -H 'content-length: 423'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Opportunity letter level model future cell good if.","maxScore":81,"minScore":24,"description":"Heart actually able everything color trial both. Almost where kid set age just policy.\nOne everybody add check argue director special. Dog between mission data likely maintain.","estimatedTime":"9 weeks","previewFileId":"e94850a5-bd88-4400-a16b-8531bb5c7fb7","createdByUserId":"b11060b6-1bf7-4654-a46f-2ed22623914a"}'
