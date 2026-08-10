@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjIxLjQxNDI3OSIsInVzZXJfaWQiOiJmNDhlN2M2Yy00MGUyLTQ0YTktOThkZS1jNzc2YjA3NTY2MWUifQ.iIH6XFdcFjqj36aLNEcQyOfTYjyl_vsF_D5PkUeTOLU'\
+ -H 'content-length: 360'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Instead exactly trial life single work.","courseId":"f3d3e0d9-9df2-4238-ad0b-708b6689e5cb","maxScore":70,"minScore":5,"orderIndex":89,"description":"Degree house care so quality age. Choice able behind pay financial. Pay last similar.\nBad girl dinner store. Pick account eat trade old be. One morning evidence send along.","estimatedTime":"9 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjIyLjMzODMxMSIsInVzZXJfaWQiOiIyZWViYzE5Yi02ZmM2LTQyMWMtYTYwNi1kN2NhM2ZkZTM0NmQifQ.cHYIzKs7SdQCkWjS_g5b3RGtTcmudlpBmiBtb_Yvg-0'\
+ -H 'content-length: 315'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Guy market stand box form than discussion.","courseId":"1ebdda46-7c7f-41d3-a46e-df54362994da","maxScore":63,"minScore":4,"orderIndex":63,"description":"Shake next buy around position guess. Involve theory environment right Democrat. Defense father something blood old whatever.","estimatedTime":"7 weeks"}'

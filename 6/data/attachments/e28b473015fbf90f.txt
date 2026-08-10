@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjE4LjQ3MjA1MSIsInVzZXJfaWQiOiJmMTcyZGM2NS1kMDhhLTRmNmUtYWJmZC1hMjEzZGE5ZjY0YmMifQ.3YhQ600qdyAqXhrzYMxifv4fcZR_wkpbtOeGeZ2Ozps'\
+ -H 'content-length: 407'\
+ -H 'content-type: application/json'\
+ -d '{"title":"International everything job understand should well involve.","maxScore":100,"minScore":4,"description":"Remember magazine you statement floor operation follow.\nFeel poor argue value rule rise sense popular. Risk a whose hear their. But condition painting.","estimatedTime":"5 weeks","previewFileId":"3a0b0f16-9d12-43ae-8432-8930a8388c76","createdByUserId":"f172dc65-d08a-4f6e-abfd-a213da9f64bc"}'

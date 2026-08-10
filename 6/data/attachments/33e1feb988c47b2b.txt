@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjIxLjEzOTQ5MyIsInVzZXJfaWQiOiIzYjU3NzkxNy1lYjczLTQyZmMtYTIwOS05YmU4YmEyNmI5ODMifQ.In0wuAgUzPwwZyB_IL4WQr2wcgW_IUz75gZFB3-1jaw'\
+ -H 'content-length: 347'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Bring in heart my bed present generation.","maxScore":56,"minScore":10,"description":"Determine pull me project today. Recently part enough south how bed. Day loss quite lose trouble surface would.","estimatedTime":"8 weeks","previewFileId":"008a141e-3487-447c-aff6-b494b46f731c","createdByUserId":"3b577917-eb73-42fc-a209-9be8ba26b983"}'

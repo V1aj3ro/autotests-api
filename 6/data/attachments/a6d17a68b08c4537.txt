@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjE5LjkzNTcyOSIsInVzZXJfaWQiOiJkYTU2NWY5NS00NWU5LTQ0NmYtOTE2My00MTZiYzcyYmZkY2QifQ.gkPzNtk9NxB4SO_daxB5lcKMrotS7KoLRG1egy5hipQ'\
+ -H 'content-length: 321'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Behavior rest represent two statement economic.","maxScore":68,"minScore":9,"description":"Wide explain skill live. Vote media billion. Look my where yet serve wait piece.","estimatedTime":"9 weeks","previewFileId":"27ada5f9-5a9e-4508-a1b5-9855f44c0027","createdByUserId":"da565f95-45e9-446f-9163-416bc72bfdcd"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/3e0cf7c8-c1fd-4147-b5ec-85ab4eb45950'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjIwLjIxMTAwOCIsInVzZXJfaWQiOiJiNjdjNTEyMy01N2QxLTQzY2ItOTY4Mi0yOTkzYzgxMWJlNTEifQ.igdw0BSLYWYmSRtNeXVvLeG12tUr3_J661SN7M0boYk'\
+ -H 'content-length: 281'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Final try five assume thus protect feel.","maxScore":65,"minScore":18,"orderIndex":12,"description":"Off prepare significant one beautiful citizen.\nCourt character rate everything. Little pass idea feeling glass. Million night nation reason.","estimatedTime":"10 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjE5LjA1NDQ0NiIsInVzZXJfaWQiOiJkYWJjODY2OC0xMGE1LTRiMDQtODFlNC0wYTUzMjI1OTdkN2MifQ.HWlBuQN8x1o-L18qWniF0XfNzwTBNXF8n0uEdKiRAAw'\
+ -H 'content-length: 406'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Voice break conference answer nothing hope trip.","maxScore":84,"minScore":4,"description":"Check along whose clear weight fine mission. Him letter position bad nearly. Network like daughter view.\nWhom baby you with when effect. History same state region.","estimatedTime":"3 weeks","previewFileId":"e9f979e0-8dbd-47e6-8013-589fb80710bb","createdByUserId":"dabc8668-10a5-4b04-81e4-0a5322597d7c"}'

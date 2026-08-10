@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjIyLjMzODMxMSIsInVzZXJfaWQiOiIyZWViYzE5Yi02ZmM2LTQyMWMtYTYwNi1kN2NhM2ZkZTM0NmQifQ.cHYIzKs7SdQCkWjS_g5b3RGtTcmudlpBmiBtb_Yvg-0'\
+ -H 'content-length: 351'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Authority story look job sign enough.","maxScore":91,"minScore":8,"description":"Ten eye wrong smile. Know walk type cold.\nInteresting always animal director. Method woman safe degree event rich trip.","estimatedTime":"8 weeks","previewFileId":"5d8a755a-2566-468b-8f87-dcab1e03c61e","createdByUserId":"2eebc19b-6fc6-421c-a606-d7ca3fde346d"}'

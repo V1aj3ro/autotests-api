@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE3OjE0OjIwLjIxMTAwOCIsInVzZXJfaWQiOiJiNjdjNTEyMy01N2QxLTQzY2ItOTY4Mi0yOTkzYzgxMWJlNTEifQ.igdw0BSLYWYmSRtNeXVvLeG12tUr3_J661SN7M0boYk'\
+ -H 'content-length: 348'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Season dream oil effect idea.","courseId":"0528bb12-20eb-4fc9-a9a4-71690373d8c5","maxScore":61,"minScore":29,"orderIndex":78,"description":"Girl sit century lot party within enter dark. Main avoid quite edge law in.\nReligious be return key class way. All member clearly win. Glass take hospital clearly allow.","estimatedTime":"4 weeks"}'
