@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA4LjM3Mjg5MiIsInVzZXJfaWQiOiJlYTZjNTdlMy0yZGNmLTQ5YjItOGQwYy1jYzA5OTZjYjFiMDcifQ.7GzvD6lST1K0tTwXUmhH6GxpR-UF98s4ZLXVmcHGjWY'\
+ -H 'content-length: 385'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Key water outside.","maxScore":92,"minScore":7,"description":"Environment anyone office way herself never eye. Before person top tough risk try.\nMention above two despite address all. Hope explain include its onto significant because.","estimatedTime":"7 weeks","previewFileId":"e57a6271-5c42-4556-aca0-39c294891e09","createdByUserId":"ea6c57e3-2dcf-49b2-8d0c-cc0996cb1b07"}'

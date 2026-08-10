@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA3LjY2MzIyMyIsInVzZXJfaWQiOiJmNTk1ODk1ZC1lM2FmLTQ5MjctOTU0NC0wZTM3ZmI3OWUwYzQifQ.pYv92CkgATEtTpGgkML9gf_YiSf3DWEolPBIP9cb76Q'\
+ -H 'content-length: 381'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Behind protect experience guess bed effect song choose.","maxScore":78,"minScore":24,"description":"Study western represent commercial worker mouth. Glass relate situation.\nSense raise level far. Take see affect whatever majority.","estimatedTime":"4 weeks","previewFileId":"047c8168-3a16-4151-8ae4-137712d847b6","createdByUserId":"f595895d-e3af-4927-9544-0e37fb79e0c4"}'

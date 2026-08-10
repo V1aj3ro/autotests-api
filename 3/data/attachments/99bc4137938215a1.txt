@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA1LjA2MjA0MyIsInVzZXJfaWQiOiI3NTBhODhlYy01NDA0LTQzOTUtOTc0NC0wNmU1NTAzZWJjZWQifQ.dnzEZoFR0Tezq7Phx8gqRHG_eCDwNMqoAYZ3-94ZjCY'\
+ -H 'content-length: 390'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Describe building concern himself her.","maxScore":92,"minScore":11,"description":"Company say explain truth.\nToward race take culture myself decade. Community Mrs interest still stay. Start relationship wrong its Congress treat where way.","estimatedTime":"8 weeks","previewFileId":"c0d9eb4b-cb69-4f87-94a2-1218d4de128c","createdByUserId":"750a88ec-5404-4395-9744-06e5503ebced"}'

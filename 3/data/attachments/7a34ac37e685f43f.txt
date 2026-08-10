@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA1LjcxMjc0NSIsInVzZXJfaWQiOiJjNTgyZWEzOC02NTNlLTQzZGYtOWZiMS01MWJmMTcwOGE3NWMifQ._sbcEZlAl2VYJHxudgRwiOSfjPm6Sm-K_SlQ8RZSeWs'\
+ -H 'content-length: 316'\
+ -H 'content-type: application/json'\
+ -d '{"title":"World paper medical identify story.","maxScore":85,"minScore":15,"description":"Specific indeed individual amount number idea analysis. Finish they no hair whose and.","estimatedTime":"9 weeks","previewFileId":"d2c39b75-596b-47f1-af2c-b5b2946d3741","createdByUserId":"c582ea38-653e-43df-9fb1-51bf1708a75c"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA2LjM1OTk4NSIsInVzZXJfaWQiOiJhNjU0ZmE1NC1mODk3LTQ4ZjYtOTFlNC0xMzViM2FlNzBlNDcifQ.w7kxLSvxpGWWGtbL4KO5jDlWu77CNJtNwJusmtg1Pko'\
+ -H 'content-length: 411'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Story large agent side statement respond.","maxScore":59,"minScore":7,"description":"Yes bit result more democratic eight cell. Parent red care doctor. Skill after director.\nShoulder effect over fall use tax drug team. Easy likely guy bad. She life center art.","estimatedTime":"4 weeks","previewFileId":"f67019da-8242-45a6-945d-c57ea2e3503c","createdByUserId":"a654fa54-f897-48f6-91e4-135b3ae70e47"}'

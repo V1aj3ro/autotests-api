@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA3LjAxMjAwMyIsInVzZXJfaWQiOiJmZThjODRkNS1lNWI3LTQwYjAtOGU4NC1jZTI3YzE4NTRmZDIifQ.Su5JocCyRT7qohyMJWWJUkDFjpf_-MdzyyUOwOtIQrU'\
+ -H 'content-length: 374'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Week college both admit describe.","maxScore":69,"minScore":14,"description":"Left government suddenly grow magazine clearly. Owner key organization benefit couple television should. Site commercial fire front once day hour.","estimatedTime":"6 weeks","previewFileId":"16c49ae6-7a27-4fe8-9be1-7750f41f596d","createdByUserId":"fe8c84d5-e5b7-40b0-8e84-ce27c1854fd2"}'

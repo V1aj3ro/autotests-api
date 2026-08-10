@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA5LjAxNzUxMCIsInVzZXJfaWQiOiJhNDUyMjUwYy0wN2ZiLTRlNDYtYWFjZi1hYzI3ZDM3ZjhmODgifQ.lrSNwCGOzBcdNyH1PJ9DMUy7ZhcTWYpFVIxnKKz-3ak'\
+ -H 'content-length: 413'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Into capital investment movie wall.","maxScore":86,"minScore":18,"description":"Drive budget story feeling. Store truth very condition thought. Bad walk open big tend answer.\nBaby because economy black. Prove performance bar Republican conference stock position.","estimatedTime":"6 weeks","previewFileId":"1ccfe1f9-761e-4d51-946f-1b736862df71","createdByUserId":"a452250c-07fb-4e46-aacf-ac27d37f8f88"}'

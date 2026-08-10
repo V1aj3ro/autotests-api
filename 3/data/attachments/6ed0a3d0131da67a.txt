@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA0LjA2MzUzOCIsInVzZXJfaWQiOiIwZmY5NmY3Ny03NDEwLTQ0ZWYtYmY0My1mN2NlMWM1NDE2NGYifQ.D3OVWvtiLrFF-7hVAN8r7icZSeGPvudhr25eJ8Rofos'\
+ -H 'content-length: 362'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Final human performance weight gun discover.","maxScore":61,"minScore":24,"description":"Yard family building away campaign. Wide game change check me. Window condition idea relationship remember student energy.","estimatedTime":"10 weeks","previewFileId":"6dcc3502-a78e-4e33-a699-d29bf99d154f","createdByUserId":"0ff96f77-7410-44ef-bf43-f7ce1c54164f"}'

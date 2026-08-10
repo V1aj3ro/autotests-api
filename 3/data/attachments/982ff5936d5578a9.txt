@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA3LjAxMjAwMyIsInVzZXJfaWQiOiJmZThjODRkNS1lNWI3LTQwYjAtOGU4NC1jZTI3YzE4NTRmZDIifQ.Su5JocCyRT7qohyMJWWJUkDFjpf_-MdzyyUOwOtIQrU'\
+ -H 'content-length: 360'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Down push hit.","courseId":"42548774-a847-4aed-b1ab-3ceec03e7580","maxScore":77,"minScore":9,"orderIndex":56,"description":"Expert economy present kitchen. Allow success follow. Letter side radio decade fire.\nMore town cause floor loss act space. Nature money argue store society. Should skill sit series fish first what.","estimatedTime":"6 weeks"}'

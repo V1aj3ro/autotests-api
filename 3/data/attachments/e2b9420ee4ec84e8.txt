@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA5LjAxNzUxMCIsInVzZXJfaWQiOiJhNDUyMjUwYy0wN2ZiLTRlNDYtYWFjZi1hYzI3ZDM3ZjhmODgifQ.lrSNwCGOzBcdNyH1PJ9DMUy7ZhcTWYpFVIxnKKz-3ak'\
+ -H 'content-length: 273'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hit coach table discover in.","courseId":"74024e69-25b0-4e16-8f6c-a5c7578e0658","maxScore":94,"minScore":5,"orderIndex":79,"description":"Language sort head ability fast set. Pay ready continue room PM hospital. Image read another get.","estimatedTime":"4 weeks"}'

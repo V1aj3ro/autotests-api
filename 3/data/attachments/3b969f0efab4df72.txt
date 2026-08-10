@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/41d27904-a426-42b8-a07c-022056bd57dc
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/41d27904-a426-42b8-a07c-022056bd57dc
+INFO     BASE_ASSERTIONS:base.py:19 Assert status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to 41d27904-a426-42b8-a07c-022056bd57dc
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Thousand system reveal world could administration well.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 57
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 58
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Face play stay decide. If later begin pull task minute simple mother. After stand Mrs above accept.
+Sea discover war just. Whatever standard trade find everyone leader. Else nothing partner study.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 087caa34-3da8-4416-bbcc-3dc7fa98863d
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

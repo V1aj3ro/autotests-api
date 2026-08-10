@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/99d50fc7-2788-44a6-bfd8-443ea76d7691'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA0LjA2MzUzOCIsInVzZXJfaWQiOiIwZmY5NmY3Ny03NDEwLTQ0ZWYtYmY0My1mN2NlMWM1NDE2NGYifQ.D3OVWvtiLrFF-7hVAN8r7icZSeGPvudhr25eJ8Rofos'\
+ -H 'content-length: 253'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Turn positive project family.","maxScore":93,"minScore":8,"description":"Red structure create. Left current page center more.\nLeader have soldier many. Nearly animal second old moment TV night. Range free economic.","estimatedTime":"9 weeks"}'

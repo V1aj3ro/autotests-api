@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTEwVDE2OjMxOjA2LjM1OTk4NSIsInVzZXJfaWQiOiJhNjU0ZmE1NC1mODk3LTQ4ZjYtOTFlNC0xMzViM2FlNzBlNDcifQ.w7kxLSvxpGWWGtbL4KO5jDlWu77CNJtNwJusmtg1Pko'\
+ -H 'content-length: 323'\
+ -H 'content-type: application/json'\
+ -d '{"title":"During region apply man couple hundred green.","courseId":"42eaa4aa-8497-4c79-8054-9629d2c5d83b","maxScore":62,"minScore":9,"orderIndex":79,"description":"Reason hit organization item fear agreement provide nor. Federal perform option popular often seat him. Try care dinner everyone.","estimatedTime":"10 weeks"}'

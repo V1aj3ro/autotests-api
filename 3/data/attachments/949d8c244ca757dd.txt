@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Assert status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:26 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to During region apply man couple hundred green.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 62
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 9
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 79
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Reason hit organization item fear agreement provide nor. Federal perform option popular often seat him. Try care dinner everyone.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 10 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 42eaa4aa-8497-4c79-8054-9629d2c5d83b
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema
