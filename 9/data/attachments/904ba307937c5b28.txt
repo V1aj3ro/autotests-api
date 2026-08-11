@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDEwOjA4OjAwLjMyODc4MCIsInVzZXJfaWQiOiIwOTAyZmJkOS01NzE0LTQ2NDQtOTJkOC0xNjgzNWM5ODk3ODgifQ.U_1eEPRTwjejbOgq1De5E5BG6vcR1s7P83Yy9fBM8M0'\
+ -H 'content-length: 397'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Probably same town ever establish become international.","courseId":"e26f8bf9-d913-4ac0-82ee-a7e6c6d65105","maxScore":75,"minScore":10,"orderIndex":100,"description":"Case body response hundred. Fast responsibility me group road here. When between senior control cut talk road may.\nBorn mission effort all soldier decision social. Guess ok several recognize.","estimatedTime":"6 weeks"}'

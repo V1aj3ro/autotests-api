@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDEwOjA4OjAxLjY3NzA0OSIsInVzZXJfaWQiOiJiZTFmYTUyNy1hZTM4LTQ4ZjctOGJiZi1kMzI0NmJjOTJhMWQifQ.GYLU3rK4eExHxg-SndFMuTRat1e2bqev6_8u-4Xnt54'\
+ -H 'content-length: 407'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Although matter occur star itself.","maxScore":62,"minScore":2,"description":"Heavy professor talk despite. Deal realize myself citizen fill action. Future than cup material station oil.\nCrime each film benefit protect. Join career face I close individual.","estimatedTime":"9 weeks","previewFileId":"a1b6381c-0be9-4ec6-b059-efda46ce981d","createdByUserId":"be1fa527-ae38-48f7-8bbf-d3246bc92a1d"}'

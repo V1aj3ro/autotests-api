@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDEwOjA4OjAwLjk4MjA2MiIsInVzZXJfaWQiOiJiMmMzNTU3Ni0wNTViLTQyNTMtOTdkNy1mNDU4YmYwYjlhOGQifQ.7Rh08dMSG8xkWm_ZZDP9xgBoBbATbjZRlmx78TnGd8s'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Body positive buy buy whose accept social heart.","maxScore":82,"minScore":5,"description":"Cover shake actually their national wonder partner. Key rock economic where point. Everything decide write yes whose family true.","estimatedTime":"3 weeks","previewFileId":"4dcd6421-663b-4ca7-8099-06dafee04612","createdByUserId":"b2c35576-055b-4253-97d7-f458bf0b9a8d"}'

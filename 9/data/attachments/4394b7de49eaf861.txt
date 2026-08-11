@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDEwOjA3OjU4LjMzMjUyOCIsInVzZXJfaWQiOiJhNTQzZjVjMS0zNGRmLTQ3MTItOGYyNi02MTZlYjAzMjZiNzgifQ.IxgJcMI4CTA2giOhePFNQj73vmYytiJ_N_8W6D3kC3c'\
+ -H 'content-length: 364'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Attorney market mention now laugh million.","maxScore":98,"minScore":28,"description":"Only outside game sport anyone. West protect cell benefit father mother administration. Thousand picture new step military and.","estimatedTime":"7 weeks","previewFileId":"66fa0e76-976b-43a4-bbcf-e685f8ff676d","createdByUserId":"a543f5c1-34df-4712-8f26-616eb0326b78"}'

@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Assert status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Attorney market mention now laugh million.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 98
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Only outside game sport anyone. West protect cell benefit father mother administration. Thousand picture new step military and.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to 66fa0e76-976b-43a4-bbcf-e685f8ff676d
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to a543f5c1-34df-4712-8f26-616eb0326b78
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

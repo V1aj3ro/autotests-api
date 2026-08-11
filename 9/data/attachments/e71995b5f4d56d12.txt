@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/c09e8f8c-a5cd-4b0d-a625-0606020c869d
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/c09e8f8c-a5cd-4b0d-a625-0606020c869d
+INFO     BASE_ASSERTIONS:base.py:19 Assert status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to c09e8f8c-a5cd-4b0d-a625-0606020c869d
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Probably same town ever establish become international.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 75
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 100
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Case body response hundred. Fast responsibility me group road here. When between senior control cut talk road may.
+Born mission effort all soldier decision social. Guess ok several recognize.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 6 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to e26f8bf9-d913-4ac0-82ee-a7e6c6d65105
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

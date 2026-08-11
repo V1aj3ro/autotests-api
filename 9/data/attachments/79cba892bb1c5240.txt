@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDEwOjA3OjU5LjYzMDQ1MCIsInVzZXJfaWQiOiJjMmU1YmQ0Yi1lMzA2LTRhNjctOGYyNy0xMDZlNjEyMjYzMGEifQ.CiUqgLO6FAYJQNMzle6HtN85w0INJD0SSS7z34_Rp44'\
+ -H 'content-length: 322'\
+ -H 'content-type: application/json'\
+ -d '{"title":"View remain head news yet.","maxScore":58,"minScore":22,"description":"Speak skill it result program. Art history plant happen city play. Read within fall hope stop skill.","estimatedTime":"10 weeks","previewFileId":"2085e5f3-858e-43ce-91d4-2ba67ad6d0ec","createdByUserId":"c2e5bd4b-e306-4a67-8f27-106e6122630a"}'

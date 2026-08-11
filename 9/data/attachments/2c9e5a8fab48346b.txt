@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDEwOjA4OjAwLjMyODc4MCIsInVzZXJfaWQiOiIwOTAyZmJkOS01NzE0LTQ2NDQtOTJkOC0xNjgzNWM5ODk3ODgifQ.U_1eEPRTwjejbOgq1De5E5BG6vcR1s7P83Yy9fBM8M0'\
+ -H 'content-length: 443'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Themselves performance family product black stage what two.","maxScore":78,"minScore":15,"description":"Sure also war care. Our receive ten defense American drive.\nOne its over movement blue sort. Drive this detail position arm cover manage. Experience truth you increase yet sister building.","estimatedTime":"4 weeks","previewFileId":"4903d0a1-002a-4b94-876f-be6334851daa","createdByUserId":"0902fbd9-5714-4644-92d8-16835c989788"}'

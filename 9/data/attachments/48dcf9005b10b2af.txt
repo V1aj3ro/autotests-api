@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDEwOjA3OjU3LjYzMTQ1MyIsInVzZXJfaWQiOiJkMGI2ZDVhMi1lMmE2LTQ0ZGQtOWQ5NS01YmM5NTkyYmRjNDQifQ.wma_fRYpJzrLtHq2sxiP4DlQDtmSHoh8MHu7UW7xtkg'\
+ -H 'content-length: 405'\
+ -H 'content-type: application/json'\
+ -d '{"title":"West show common pressure shake oil.","maxScore":58,"minScore":26,"description":"Ground city community control already. Speak structure pay available two modern skill lose. Yard reduce past effort.\nBehavior important discuss bad. After how call material.","estimatedTime":"1 weeks","previewFileId":"48f9487d-c444-4383-9498-78ed28576f69","createdByUserId":"d0b6d5a2-e2a6-44dd-9d95-5bc9592bdc44"}'
