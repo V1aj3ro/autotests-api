@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjA1LjExMjA0MyIsInVzZXJfaWQiOiIzMmYwNzRkMy1hMTRmLTRmMzEtYTQwOS1jZmZiNTA3MTM4YTUifQ.SAaEuXJSvqyK5wvnbufkKkQb65ZF7sIaFJwwp6a2CzA'\
+ -H 'content-length: 376'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Tend seek serve room but senior again.","maxScore":95,"minScore":12,"description":"Worker arm forget beyond Republican. Avoid admit line task. Travel rate bill already.\nTrouble interesting owner from ability. List cup enough.","estimatedTime":"9 weeks","previewFileId":"449995f3-a9e0-447d-bda4-4aef74749582","createdByUserId":"32f074d3-a14f-4f31-a409-cffb507138a5"}'

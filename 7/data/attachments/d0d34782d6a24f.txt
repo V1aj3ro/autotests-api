@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjA1LjY5MTgwMyIsInVzZXJfaWQiOiJlZmMwMzA3OS1mYWIyLTRmMTMtODQxYi04OGFkOGRhODY2NmYifQ.xBed6_TKhD1Jw3T44fauLhZAwCNZUG-oyj8yJvxJgOM'\
+ -H 'content-length: 345'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Information knowledge catch summer become.","maxScore":76,"minScore":14,"description":"Course ever agree evening with. Occur feel research mother rock worker radio. Guy what dream might attorney.","estimatedTime":"4 weeks","previewFileId":"e43ea5b2-de2b-42d4-84ef-45e4754d04ca","createdByUserId":"efc03079-fab2-4f13-841b-88ad8da8666f"}'

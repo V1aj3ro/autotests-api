@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjA2LjkyMDAzNCIsInVzZXJfaWQiOiJhMDY2YjkzOS1mZDdlLTQxYWEtODQxMi1lYmUzYzQwY2E2NGIifQ.tY7vetOjBIYnO3B9pLfD-EBUvcT1wvACdfnXYuSkfrg'\
+ -H 'content-length: 363'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Animal summer interesting manage ago himself.","maxScore":100,"minScore":2,"description":"Contain on bank. Laugh shoulder entire themselves think threat arrive. Reality especially store cultural leader understand.","estimatedTime":"9 weeks","previewFileId":"4604c576-9443-4553-9e85-a90a6f61ae91","createdByUserId":"a066b939-fd7e-41aa-8412-ebe3c40ca64b"}'

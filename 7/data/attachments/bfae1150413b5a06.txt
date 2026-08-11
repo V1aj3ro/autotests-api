@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjA3LjUwMTc5MyIsInVzZXJfaWQiOiJmMWFiMzg4MS0zOTM4LTQ0MTMtOWZhNi1iZDM1ZTM3OGI2NmEifQ.NULAmkmIfs3gsTvVYCRnGCSirXdP091nRI5UptBJCpM'\
+ -H 'content-length: 381'\
+ -H 'content-type: application/json'\
+ -d '{"title":"While customer member heavy throughout executive interesting.","courseId":"698c4341-c9ad-4529-9936-fb6622a87079","maxScore":83,"minScore":14,"orderIndex":26,"description":"Their special produce kind phone star. Human foreign your join.\nGrowth national level town reach major bar me. Apply theory play dark. School left special big nice hotel.","estimatedTime":"5 weeks"}'

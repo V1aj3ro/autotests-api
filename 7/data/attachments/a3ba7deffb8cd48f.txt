@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjA2LjI3NzMxMCIsInVzZXJfaWQiOiIyYTAzMTJhMi02ZDUyLTRiODAtYjkyNS04YzM2ZTU4MTQ3ZmEifQ.5VCWuYrxcQ1d3xVSk3O5jiyRH49sFoNwhtca8hNlhGE'\
+ -H 'content-length: 317'\
+ -H 'content-type: application/json'\
+ -d '{"title":"North view lead goal significant hour hospital rather.","courseId":"3cc53103-c706-4026-a005-b4aef2776841","maxScore":70,"minScore":1,"orderIndex":27,"description":"Myself upon wrong stock relate store Republican. Despite house some something agent. New camera concern themselves.","estimatedTime":"7 weeks"}'

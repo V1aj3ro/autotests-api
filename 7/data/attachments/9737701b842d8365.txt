@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjAzLjgzMzg3NiIsInVzZXJfaWQiOiJkOGFmYzU5Mi03N2E1LTRlZWUtYmJiNC0zOTNmZWMxNDFmZDIifQ.6sSaYVxQp6pF8U5dJMWTWuVwM09DP9KgX7MgYqq8_Lk'\
+ -H 'content-length: 352'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Democratic discover level deep.","maxScore":63,"minScore":1,"description":"Break out identify rule speak meeting pattern.\nAllow near space government nation about. Better property success writer issue.","estimatedTime":"9 weeks","previewFileId":"b7816225-4367-49d7-801f-49036230567e","createdByUserId":"d8afc592-77a5-4eee-bbb4-393fec141fd2"}'

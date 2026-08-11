@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/7e3e434a-88c0-400e-a9cc-db6870ca229d'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjAzLjgzMzg3NiIsInVzZXJfaWQiOiJkOGFmYzU5Mi03N2E1LTRlZWUtYmJiNC0zOTNmZWMxNDFmZDIifQ.6sSaYVxQp6pF8U5dJMWTWuVwM09DP9KgX7MgYqq8_Lk'\
+ -H 'content-length: 257'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Wait air expect official open.","maxScore":57,"minScore":18,"description":"Everything into close food indeed something. Member focus everyone suffer research college.\nBenefit pick employee most. Ahead board affect six.","estimatedTime":"1 weeks"}'

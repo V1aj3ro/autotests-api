@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjA2LjI3NzMxMCIsInVzZXJfaWQiOiIyYTAzMTJhMi02ZDUyLTRiODAtYjkyNS04YzM2ZTU4MTQ3ZmEifQ.5VCWuYrxcQ1d3xVSk3O5jiyRH49sFoNwhtca8hNlhGE'\
+ -H 'content-length: 434'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Spend none safe visit believe movie economy.","maxScore":72,"minScore":21,"description":"Least hot behavior goal year thus. Over test spring study level.\nInterview break science summer day goal place. Share director address experience standard especially. Lawyer question area carry.","estimatedTime":"6 weeks","previewFileId":"8b20c861-2fda-4272-99b2-8ac38bb48c64","createdByUserId":"2a0312a2-6d52-4b80-b925-8c36e58147fa"}'

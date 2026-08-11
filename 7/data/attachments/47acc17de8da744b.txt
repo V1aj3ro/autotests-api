@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjM3OjA3LjUwMTc5MyIsInVzZXJfaWQiOiJmMWFiMzg4MS0zOTM4LTQ0MTMtOWZhNi1iZDM1ZTM3OGI2NmEifQ.NULAmkmIfs3gsTvVYCRnGCSirXdP091nRI5UptBJCpM'\
+ -H 'content-length: 362'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Important white natural himself.","maxScore":84,"minScore":11,"description":"Pull prepare small. Husband themselves next inside know.\nGoal rule everything act ever mouth. College ground simply room middle never.","estimatedTime":"6 weeks","previewFileId":"088ac847-e111-4f09-b09b-651ba0875adb","createdByUserId":"f1ab3881-3938-4413-9fa6-bd35e378b66a"}'
