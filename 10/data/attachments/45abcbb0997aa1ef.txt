@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/b5331cc9-c992-4d1f-8295-60c8feac8957'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjEzLjg5MDUwMCIsInVzZXJfaWQiOiI0OTIzZDYwNy1hMWMyLTQ3YzktYjIwNi0zYTM4OTgxMjFjNGEifQ.0pEVjHVO2DHeFn5_X3lHumxNyWnQf2KSh4g-xi9f02w'\
+ -H 'content-length: 225'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Yes mean computer.","maxScore":94,"minScore":10,"orderIndex":71,"description":"Your forward real meeting.\nWeight note single occur. Guess place decision eye. Of recently decade art tree.","estimatedTime":"1 weeks"}'

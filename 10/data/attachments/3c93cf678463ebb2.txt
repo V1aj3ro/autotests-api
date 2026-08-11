@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjE1LjI0OTU5OCIsInVzZXJfaWQiOiI1MzBkODA2OS0xODg1LTRlYTYtYmQ0Ni01M2U3MDgyYzlmNzcifQ.OVzJYGscFMnSENiV5wmsja4Am2SmBky0peYXNSrZMvI'\
+ -H 'content-length: 402'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Grow participant life first.","maxScore":68,"minScore":15,"description":"Pattern hotel unit movie raise. Career hear car ago physical. Event production test blood speech.\nSocial popular artist institution.\nKid couple compare possible. Ever those bed.","estimatedTime":"6 weeks","previewFileId":"4324bed1-3270-477d-9096-35bc1279daca","createdByUserId":"530d8069-1885-4ea6-bd46-53e7082c9f77"}'

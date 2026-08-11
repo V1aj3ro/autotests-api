@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjEzLjg5MDUwMCIsInVzZXJfaWQiOiI0OTIzZDYwNy1hMWMyLTQ3YzktYjIwNi0zYTM4OTgxMjFjNGEifQ.0pEVjHVO2DHeFn5_X3lHumxNyWnQf2KSh4g-xi9f02w'\
+ -H 'content-length: 349'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Enter sometimes pick soldier morning.","courseId":"5c7c006e-1ed6-4891-8865-44a9afc13583","maxScore":62,"minScore":28,"orderIndex":90,"description":"National no now. In benefit theory sure call certain her. His present administration though.\nStory hit hard popular thus. Address power want watch respond friend.","estimatedTime":"7 weeks"}'

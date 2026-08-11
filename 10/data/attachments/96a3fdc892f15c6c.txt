@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjEyLjI0OTk1MyIsInVzZXJfaWQiOiI2MzZmYTgxNi1jZjFiLTRiOGMtYTU0ZC0yYTkzZWNkMjIxNjcifQ.5ZkqVkuKl6FZLUiOzUsGNb1hl7K-5mh1pZWN-h0KLHM'\
+ -H 'content-length: 373'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Attack population security sister.","maxScore":54,"minScore":23,"description":"Represent computer consumer talk mouth order bad. Enough operation lot size its up politics. Morning less newspaper contain team improve appear.","estimatedTime":"3 weeks","previewFileId":"f9d282cc-1d13-48b9-97bf-8ce46e7cff68","createdByUserId":"636fa816-cf1b-4b8c-a54d-2a93ecd22167"}'

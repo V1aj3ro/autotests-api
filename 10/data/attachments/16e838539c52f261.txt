@@ -1,0 +1,22 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/b5331cc9-c992-4d1f-8295-60c8feac8957
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/b5331cc9-c992-4d1f-8295-60c8feac8957
+INFO     BASE_ASSERTIONS:base.py:19 Assert status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:87 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Yes mean computer.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 94
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 10
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 71
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Your forward real meeting.
+Weight note single occur. Guess place decision eye. Of recently decade art tree.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

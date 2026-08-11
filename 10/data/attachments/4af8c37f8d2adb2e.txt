@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjEyLjkzNzIxMSIsInVzZXJfaWQiOiI5NTBjN2YzZS1iMTM1LTQzN2YtOGUyOC1kYmQyYjM5NzQ3YWUifQ.InAOhiCFzqrZYx8JkXkWunkDvDSPELa8lOK8BDzyjA0'\
+ -H 'content-length: 385'\
+ -H 'content-type: application/json'\
+ -d '{"title":"According people too treat like structure great.","maxScore":75,"minScore":21,"description":"Report drop consumer this. Learn you low purpose president.\nHeavy mean ready set figure. Rock city wind others man notice direction question.","estimatedTime":"6 weeks","previewFileId":"d15b9e81-33ab-4598-8f3d-5582fcf503b7","createdByUserId":"950c7f3e-b135-437f-8e28-dbd2b39747ae"}'

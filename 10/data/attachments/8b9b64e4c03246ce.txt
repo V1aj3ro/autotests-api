@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjE2LjM5NjgxOCIsInVzZXJfaWQiOiI2YzlmZTBlYi00N2I4LTRiMWYtYjI0Zi05ZDBlMTE4NWY4ZjQifQ.ei92_n2nkcs2eRUL9SoC3SvXATfYyEvSMVDK2OSZnQM'\
+ -H 'content-length: 380'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Use data figure store dream lose cut.","courseId":"0062330f-fe97-4b61-8ea9-056c8dda933a","maxScore":94,"minScore":9,"orderIndex":27,"description":"Black lay water raise project. Somebody according writer likely back follow whole. By sometimes detail effect campaign as scientist.\nSingle most choice time. Heavy now cultural trial yes happen.","estimatedTime":"3 weeks"}'

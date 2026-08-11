@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/18b85607-6b89-404b-9414-ff97c1b35e61
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/18b85607-6b89-404b-9414-ff97c1b35e61
+INFO     BASE_ASSERTIONS:base.py:19 Assert status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:25 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Budget matter media for.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 95
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Painting per car paper age Congress. Rate field rule plant provide. Benefit number of his spring number.
+Bag life call human drop until.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

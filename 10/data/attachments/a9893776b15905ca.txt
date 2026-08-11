@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/courses/18b85607-6b89-404b-9414-ff97c1b35e61'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjExLjQ0OTQ0NCIsInVzZXJfaWQiOiIxYzg4MDA1ZS0zNzBhLTRkNzMtYTFmYi0zMmJhN2ZjOTVmMWYifQ.c0BoaGVdR_JM9Xa9Fud-PhKX0Tc5JU8cQ-DrD3GOjcA'\
+ -H 'content-length: 244'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Budget matter media for.","maxScore":95,"minScore":17,"description":"Painting per car paper age Congress. Rate field rule plant provide. Benefit number of his spring number.\nBag life call human drop until.","estimatedTime":"1 weeks"}'

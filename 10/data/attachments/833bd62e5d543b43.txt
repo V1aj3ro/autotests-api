@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjE1LjQ4ODI4MSIsInVzZXJfaWQiOiJkOWRlYzg2Mi03ZTkwLTQyOTktOWNjMC1hZjVhMTllMDVkZWIifQ.-dajokdDOv5cxzfNT-5jZBJfEM9r1Hs-AmguWl3N27M'\
+ -H 'content-length: 306'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Important we people.","courseId":"93bdaf55-38fb-47df-97c8-730c90bd0eca","maxScore":69,"minScore":28,"orderIndex":5,"description":"Writer show impact stock could design staff. Responsibility list risk street consider benefit. Product somebody standard until investment.","estimatedTime":"5 weeks"}'

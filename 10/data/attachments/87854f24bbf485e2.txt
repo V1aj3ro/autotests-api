@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDE0OjU2OjE0LjEyNjc3MiIsInVzZXJfaWQiOiJmYTA0NjNmOS1lN2Y5LTQ1MWEtODI1NS0yMThjNWY2OTgyYWIifQ.czWYgVvLuGITexTlqLNU0P91nCbJBttRsOhTdzomklA'\
+ -H 'content-length: 361'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Start increase run reveal.","maxScore":78,"minScore":23,"description":"Bit summer clearly. Summer month lead turn. Same recently born common.\nCentury spring citizen set consider. World consumer stand leg order.","estimatedTime":"9 weeks","previewFileId":"1e54d495-60ff-4ac8-9f7b-4ebec880cef2","createdByUserId":"fa0463f9-e7f9-451a-8255-218c5f6982ab"}'
