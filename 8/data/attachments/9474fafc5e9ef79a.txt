@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjQ5OjI5LjA5OTI3NiIsInVzZXJfaWQiOiJmOGYwNzlhMy1hOTA0LTQ4MDktOTU0Ny1hMWIyZThjYWNlMTAifQ.nKYIw45GexFo_YBrci8N3QyfyH4HOZcP2m60ovipRdQ'\
+ -H 'content-length: 414'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Anyone campaign stock international girl art child.","maxScore":55,"minScore":9,"description":"Others campaign avoid figure impact decision who. Similar meeting party some score billion. Describe it trouble morning artist.\nStreet rise now myself. Move create cup.","estimatedTime":"6 weeks","previewFileId":"64d951e9-4f08-4f92-8de0-5d142a9321b0","createdByUserId":"f8f079a3-a904-4809-9547-a1b2e8cace10"}'

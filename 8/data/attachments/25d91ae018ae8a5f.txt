@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjQ5OjI3Ljc1NDUxNiIsInVzZXJfaWQiOiIyNjA5MGM1Zi1jNjM2LTQ2MDItYmM0ZC02MmFkZmY5NTk5MWEifQ.xt4dSNMrGQ6fHpfDeaxQrBlLdSTK5pc3Zek5CAV1nkk'\
+ -H 'content-length: 362'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Compare simply brother interest range participant.","courseId":"827b898c-a283-4909-a2a5-2dc431d866e3","maxScore":96,"minScore":8,"orderIndex":17,"description":"Position natural increase. Right professional yeah international.\nAs mother fine maintain artist. Fire professor author be. Something civil oil heart safe foreign.","estimatedTime":"5 weeks"}'

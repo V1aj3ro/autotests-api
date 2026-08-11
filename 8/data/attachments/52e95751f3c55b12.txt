@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/f0db8bd8-5a37-45f2-b186-c58470944f66
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/f0db8bd8-5a37-45f2-b186-c58470944f66
+INFO     BASE_ASSERTIONS:base.py:19 Assert status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:70 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:46 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to f0db8bd8-5a37-45f2-b186-c58470944f66
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to Compare simply brother interest range participant.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 96
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 8
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 17
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to Position natural increase. Right professional yeah international.
+As mother fine maintain artist. Fire professor author be. Something civil oil heart safe foreign.
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 5 weeks
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to 827b898c-a283-4909-a2a5-2dc431d866e3
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

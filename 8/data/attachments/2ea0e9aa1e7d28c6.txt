@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjQ5OjI2LjQxNTU5MCIsInVzZXJfaWQiOiJmMGU4ZmQxZC1hNDJiLTQ4NTAtOWQ1Yy04MGY2YTk5M2JjZjMifQ.FWTuHNQJecm1tm30HwFAdPfDFXNoQHIWsHUmd_DxznE'\
+ -H 'content-length: 336'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Hour student own apply.","maxScore":100,"minScore":10,"description":"Price or thought accept certain wonder effort young. Through assume lawyer alone. Very if allow wear affect national.","estimatedTime":"3 weeks","previewFileId":"9cc452d2-871d-44d3-8ea8-803bb9ee7e68","createdByUserId":"f0e8fd1d-a42b-4850-9d5c-80f6a993bcf3"}'

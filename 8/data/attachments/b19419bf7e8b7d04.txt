@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/exercises'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjQ5OjI2LjQxNTU5MCIsInVzZXJfaWQiOiJmMGU4ZmQxZC1hNDJiLTQ4NTAtOWQ1Yy04MGY2YTk5M2JjZjMifQ.FWTuHNQJecm1tm30HwFAdPfDFXNoQHIWsHUmd_DxznE'\
+ -H 'content-length: 307'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Those physical behavior position strategy majority.","courseId":"507c3568-457a-4035-ac45-acac21dfc1b6","maxScore":97,"minScore":15,"orderIndex":61,"description":"Whether defense some manager explain conference both religious. Live action play care two perhaps everyone.","estimatedTime":"6 weeks"}'

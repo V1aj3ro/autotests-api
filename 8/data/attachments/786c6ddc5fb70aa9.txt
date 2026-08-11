@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjQ5OjI1Ljc2NzIzNiIsInVzZXJfaWQiOiI2N2Y4NDQzMi01MGYxLTQyMjAtOTAzMi01Y2QwMmQ4MDJhYjEifQ.3mM9vKJusMFRKOdoBBd676t7bS_kV9dxnmfxr7QemR4'\
+ -H 'content-length: 371'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Share art similar benefit moment cover.","maxScore":71,"minScore":18,"description":"Big could may line major. Near skill down prevent.\nGreen son light. Far instead say draw how. Run argue talk create cultural over state.","estimatedTime":"6 weeks","previewFileId":"6b6027f6-4ef9-4f7c-a201-c8b004d3f0e4","createdByUserId":"67f84432-50f1-4220-9032-5cd02d802ab1"}'

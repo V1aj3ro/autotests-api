@@ -1,0 +1,11 @@
+curl -X 'POST'\
+ 'http://localhost:8000/api/v1/courses'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjQ5OjI0LjM5Mzc4MCIsInVzZXJfaWQiOiIyZjM5NDgzZi0xYjM2LTRmNzUtOTMxOC03YTM1OTM1NzM3MzIifQ.MTJCr26-Rk-1OGgNsiV0OzEG3RpXAKj7JM16oB7SBKI'\
+ -H 'content-length: 419'\
+ -H 'content-type: application/json'\
+ -d '{"title":"They read middle serve.","maxScore":56,"minScore":27,"description":"Difficult he seat huge product trial. Change growth general future hard term could. Worry machine attorney cell.\nMemory single page.\nSchool president fine land. Water board compare expert word voice.","estimatedTime":"6 weeks","previewFileId":"f70bd02c-c214-4b46-b1a0-7cdc47de17f1","createdByUserId":"2f39483f-1b36-4f75-9318-7a3593573732"}'

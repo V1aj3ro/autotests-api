@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+ 'http://localhost:8000/api/v1/exercises/283e91cf-4914-4edc-bd3b-dabcde0cfbce'\
+ -H 'host: localhost:8000'\
+ -H 'accept: */*'\
+ -H 'accept-encoding: gzip, deflate'\
+ -H 'connection: keep-alive'\
+ -H 'user-agent: python-httpx/0.28.1'\
+ -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA4LTExVDA5OjQ5OjI3LjA2NTYwMyIsInVzZXJfaWQiOiJhNjJmYjhlYS0wYjUzLTQ4MzYtODdmZi1hZDc2OTAxMGRiYTgifQ.Mz9kAlyICs65whbpW77BFG2UpKfwIaxgtlXHbCEEvsk'\
+ -H 'content-length: 306'\
+ -H 'content-type: application/json'\
+ -d '{"title":"Under even serious some company.","maxScore":58,"minScore":29,"orderIndex":34,"description":"These no husband season above why. Lose miss police key give maybe able whether. Road wait nor our again kitchen staff performance. Activity policy wife worker us significant.","estimatedTime":"4 weeks"}'
